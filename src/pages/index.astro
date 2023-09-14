@@ -1,0 +1,43 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+	</head>
+	<body>
+		<Header title={SITE_TITLE} />
+		<main>
+			<h1>Welcome!</h1>
+			<p>
+				This website is for my simple blog, in here I will post my life hobbies, photos, events and videos including some repairs and tutorials.
+			</p>
+			<p>
+				Let me give you a brief description of myself. I am Ricky Moreno Banuelos, a computer and cellphone technician, a Church's Sunday School Teacher and Musician, a Web Developer, and an Electronic Technician. Residing currently at P-8, Poblacion, Sibagat, Agusan Del Sur, PH.
+			</p>
+			<p>Here are a few Services that I currently offer locally:</p>
+			<ul>
+				<li>Computer & Laptop Repair</li>
+				<li>Cellphone Repair</li>
+				<li>Printer Repair</li>
+				<li>Washing Machine Repair</li>
+				<li>Speaker/Sound System Repair</li>
+				<li>Computer & Laptop Data Recovery</li>
+				<li>Music & Video downloads for USB and Memmory Card</li>
+			</ul>
+			<p>
+				Thank you for visiting! If you have any questions, contact me by clicking the link below.<br> 
+				 <a href="/contacts"
+					>Contact us
+				</a>
+			</p>
+
+		</main>
+		<Footer />
+	</body>
+</html>
