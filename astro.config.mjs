@@ -1,10 +1,6 @@
-import { defineConfig } from 'astro/config';
-import mdx from '@astrojs/mdx';
+import { defineConfig } from 'astro/config'
 
-import sitemap from '@astrojs/sitemap';
-
-// https://astro.build/config
 export default defineConfig({
-	site: 'https://ricdodong.github.io/home',
-	integrations: [mdx(), sitemap()],
-});
+  site: 'https://astronaut.github.io',
+  base: '/home',
+})
