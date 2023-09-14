@@ -6,5 +6,6 @@ import sitemap from '@astrojs/sitemap';
 // https://astro.build/config
 export default defineConfig({
 	site: 'https://ricdodong.github.io',
+	 base: '/home',
 	integrations: [mdx(), sitemap()],
 });
